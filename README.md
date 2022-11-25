@@ -36,8 +36,6 @@ Other requirements:
 &emsp;-The object returned by the parse functions shall not allow modifying the graph through its public functions. So, don't return sets by reference. Return iterators.\
 &emsp;-Generally, make sure the graph cannot be brought in an inconsistent state by applying public functions on various accessible objects.
 
-Note: You are allowed to use, from existing libraries, data structures such as linked lists, double-linked lists, maps, etc. However, you are not allowed to use already-implemented graphs (though, you are encouraged to take a look at them).
-
 Text file format: the graph will be read from a text file having the following format:
 
 &emsp;-On the first line, the number n of vertices and the number m of edges;\
