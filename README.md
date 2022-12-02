@@ -33,7 +33,7 @@ Other requirements:
 - The object returned by the parse functions shall not allow modifying the graph through its public functions. So, don't return sets by reference. Return iterators.
 - Generally, make sure the graph cannot be brought in an inconsistent state by applying public functions on various accessible objects.
 
-Text file format: the graph will be read from a text file having the following format:
+Text file format, the graph will be read from a text file having the following format:
 - On the first line, the number n of vertices and the number m of edges;
 - On each of the following m lines, three numbers, x, y and c, describing an edge: the origin, the target and the cost of that edge.
 
